@@ -1,4 +1,4 @@
-import 'css/tailwind.css'
+import '@/css/tailwind.css'
 import Head from 'next/head'
 
 export default function App({ Component, pageProps }) {
@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
