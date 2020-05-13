@@ -7,6 +7,23 @@ export default function JobPosting({ children }) {
   return (
     <Layout>
       <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@tailwindcss" />
+        <meta name="twitter:title" content="Tailwind Jobs" />
+        <meta
+          name="twitter:description"
+          content="Help us build the future of Tailwind CSS and Tailwind UI."
+        />
+        <meta name="twitter:image" content="https://jobs.tailwindui.com/social.png" />
+        <meta name="twitter:creator" content="@tailwindcss" />
+        <meta property="og:url" content="https://jobs.tailwindui.com/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Tailwind Jobs" />
+        <meta
+          property="og:description"
+          content="Help us build the future of Tailwind CSS and Tailwind UI."
+        />
+        <meta property="og:image" content="https://jobs.tailwindui.com/social.png" />
         <title>Tailwind Jobs</title>
       </Head>
 
