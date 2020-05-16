@@ -1,11 +1,12 @@
-import JobPosting from '@/components/JobPosting'
-
-export const metadata = {
-  title: 'Full-Stack Developer',
-  subtitle: 'Help define and build the future of our developer tools and products.',
-}
-
-export default ({ children }) => <JobPosting metadata={metadata}>{children}</JobPosting>
+---
+title: 'Full-Stack Developer'
+subtitle: 'Help define and build the future of our developer tools and products.'
+jobType: 'Full-time'
+location: ['Remote', 'North America']
+salary: ['$115,000 – $135,000 USD', '$160,000 – $195,000 CAD']
+closes: '2020-05-27T21:00:00.0-05:00'
+applyUrl: 'https://apply.workable.com/tailwind-ui/j/E129989EC6/apply/'
+---
 
 We're the tiny team behind open-source projects like [Tailwind CSS](https://tailwindcss.com), commercial products like [Tailwind UI](https://tailwindui.com), and the book [Refactoring UI](https://refactoringui.com/book). We're hiring another programmer to help us build more awesome UI tools for developers.
 

@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <header className="space-y-4">
       <Link href="/">
-        <a class="block">
+        <a className="block">
           <img className="h-6 w-auto" src="/img/tailwind-ui-logo.svg" alt="Tailwind UI" />
         </a>
       </Link>
-      <dl class="flex space-x-6">
+      <dl className="flex space-x-6">
         <div>
           <dt className="sr-only">Company headquarters</dt>
           <dl className="flex items-center space-x-2 text-sm leading-5">
@@ -35,7 +35,7 @@ export default function Header() {
           </dl>
         </div>
       </dl>
-      <div class="max-w-xl text-sm leading-5 text-gray-500">
+      <div className="max-w-xl text-sm leading-5 text-gray-500">
         <p>
           Tailwind UI is a small team of developers and designers building tools to help other
           developers build better user interfaces.
